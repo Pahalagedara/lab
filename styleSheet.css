@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #b2beb5;
+}
+
+
+/*index page*/
+
+.nav {
+    margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background: linear-gradient(to right, rgb(177, 101, 39), rgb(255, 255, 255), rgb(177, 101, 39));
+}
+
+.navLog {
+    margin: 5px;
+}
+
+ul.navLink {
+    margin-right: 5px;
+    display: flex;
+    padding: 5px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+ul.navLink li {
+    padding: 0 1px;
+}
+
+ul.navLink li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    font-size: 120%;
+}
+
+ul.navLink li:hover {
+    border-bottom: 5px solid rgb(177, 101, 39);
+}
+
+.page {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1vh 1vw;
+}
+
+.row {
+    display: flex;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.itemSet{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 5px;
+    
+
+}
+.item{
+    height: 400px;
+    padding: 5px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 1px;
+}
+
+
+.item img{
+    position: absolute;
+    top: 3%;
+    left:10%;
+}
+
+.priceTag {
+    white-space: nowrap;
+    position: relative;
+    margin: 0 5px 0 10px;
+    displaY: inline-block;
+    height: 25px;
+    border-radius: 0 5px 5px 0;
+    padding: 0 25px 0 15px;
+    background: rgb(80, 60, 39);
+    border: 0 solid rgb(80, 60, 39);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    color: #999;
+    line-height: 23px;
+}
+
+.priceTag:before {
+    position: absolute;
+    content: "\25CF";
+    color: white;
+    text-shadow: 0 0 1px #333;
+    font-size: 11px;
+    line-height: 0px;
+    text-indent: 12px;
+    left: -15px;
+    width: 1px;
+    height: 0px;
+    border-right: 14px solid rgb(80, 60, 39);
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+}
+
+.discription{
+    padding: 5px;
+    position: absolute;
+    top: 300px;
+}
+
+.foot{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 90%;
+    padding:0 2%;
+}
+.prePrice{
+    position: absolute;
+    top: 85%;
+    right: 2%;
+    color: red;
+    text-decoration: line-through;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+a.forItem {
+    text-decoration: none;
+    color: black;
+}
+
+.item_page {
+    display: flex;
+    padding: 20px;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.radioPrice {
+    width: 100%;
+}
+
+.deliver {
+    width: 80%;
+    border: double;
+    border-color: rgb(240, 240, 255);
+    border-width: 5px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.deliver:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.btnSubmit {
+    background-color: rgb(103, 47, 35);
+    color: white;
+}
+
+.item_page-40 {
+    padding: 20px;
+    width: 40%;
+}
+
+.item_page-60 {
+    padding: 20px;
+    width: 60%;
+}
+.col-25{
+    width: 25%;
+    text-align: right;
+    margin-right: 10px;
+}
+.col-75{
+    width: 75%;
+}
+
+.col-75 input[type=text]{
+    width: 100%;
+}
+.contactBody{
+    margin-left: 10%;
+    margin-right: 5%;
+}
